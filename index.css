@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media (max-width:481px)  { 
+@media screen and (orientation: portrait)  { 
     /* smartphones, iPhone, portrait 480x320 phones */ 
     .PC {
         display: none;
