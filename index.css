@@ -54,3 +54,13 @@ table {
     margin: 5cm auto;
 }
 
+.part-divider {
+    width: 90%;
+    margin: 30px auto;
+    border-color: #253c64;
+}
+
+th, td {
+    font-size: 25px;
+}
+
