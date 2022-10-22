@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@ h1 {
     text-align: center;
     color: #253c64;
     margin-top: 30px;
-    font-family: 'Shalimar', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 h2 {
@@ -23,11 +23,11 @@ h2 {
     text-align: center;
     color: #253c64;
     margin-bottom: 20px;
-    font-family: 'Shalimar', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
     color: #253c64;
     margin: 30px auto;
@@ -40,5 +40,9 @@ h3 {
 
 i {
     font-size: 35px; 
+}
+
+p {
+    font-size: 40px;
 }
 
