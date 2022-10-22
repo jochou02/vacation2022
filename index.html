@@ -3,24 +3,45 @@
     <head>
         <title>Vacation 2022</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="collapsible.css">
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/698c813efd.js" crossorigin="anonymous"></script>
     </head>
     <body>
         
-        <h1>Winter 2022</h1>
-        <h2>--- Punta Cana | Orlando ---</h2>
+        <h1>Winter 2022 </h1>
+        <h2><i class="fa-solid fa-location-dot"></i>&nbsp&nbspPunta Cana --- Orlando</h2>
+        <hr class="divider">
 
+        <h3>Flights</h3>
 
-        <h3>FLIGHT SCHEDULE:</h3>
-        <p>LAX -> MIA
-            Friday 12/16 2:05pm - 9:45pm 
-            
-            MIA -> Punta 
-            Saturday, 12/17 8:25am - 11:45am 
-            
-            Punta -> MCO 
-            ???
-            
-            MCO -> LAX
-            Sunday 12/25 8:15pm - 11:00pm </p>
+        <button type="button" class="collapsible">Flight Schedule</button>
+        <div class="content">
+            <p>Friday 12/16 2:05pm - 9:45pm</p>
+            <p>LAX -> MIA</p>
+            <hr>
+            <p>Saturday, 12/17 8:25am - 11:45am </p>
+            <p>MIA -> PUJ</p>
+            <hr>
+            <p>???</p>
+            <p>PUJ -> MCO </p>
+            <hr>
+            <p>Sunday 12/25 8:15pm - 11:00pm </p>
+            <p>MCO -> LAX</p>
+        </div>
+
+        <h3>Itinerary</h3>
+
+        <button type="button" class="collapsible">Friday, December 16</button>
+        <div class="content">
+          <p>Lorem ipsum...</p>
+        </div>
+
+        <button type="button" class="collapsible">Saturday, December 17</button>
+        <div class="content">
+          <p>Lorem ipsum...</p>
+        </div>
+
     </body>
+    <script src="index.js"></script>
 </html>
