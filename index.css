@@ -33,6 +33,11 @@ h3 {
     margin: 40px auto;
 }
 
+h4 {
+    text-align: center;
+    color: #253c64;
+}
+
 .divider {
     width: 80%;
     margin: 30px auto 0px auto;
